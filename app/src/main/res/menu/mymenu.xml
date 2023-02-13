@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/rate"
+    android:title="Rate"
+    android:icon="@drawable/rateimg"
+    app:showAsAction="always"
+    ></item>
+    <item
+        android:id="@+id/share"
+        android:title="Rate"
+        android:icon="@drawable/shareimg"
+        app:showAsAction="always"
+
+        ></item>
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/search"
+        app:showAsAction="always"
+
+        ></item>
+    <item
+        android:id="@+id/history"
+        android:title="History"
+        app:showAsAction="never"
+
+        ></item>
+    <item
+        android:id="@+id/town"
+        android:title="Towns"
+        app:showAsAction="never"
+
+        ></item>
+
+
+
+</menu>
